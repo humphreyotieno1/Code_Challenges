@@ -19,10 +19,10 @@ function findGrades () {
             yourGrade = 'E';
         }
 
-        // print the result
+        // print the result to the console
         console.log(`Your grade for ${studentMarks} is: ${yourGrade}`);
     } else {
-        //if the correct mark is not entered
+        //if the correct mark is not entered, give an error
         console.log('Please enter a valid mark (0-100)');
         //calling the function
         findGrades();
